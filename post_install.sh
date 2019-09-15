@@ -1,9 +1,5 @@
 #!/bin/sh
 
-
-# Remove a conflict file
-rm /usr/local/share/doc/qbittorrent/AUTHORS
-
 #Install flavor port
 pkg install qbittorrent-nox
 
