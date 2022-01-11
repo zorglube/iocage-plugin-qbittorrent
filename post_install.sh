@@ -3,10 +3,10 @@
 #Install flavor port
 pkg install qbittorrent-nox
 
-#auto start after jail reboot
-echo /usr/local/bin/qbittorrent-nox -d > /etc/rc.local
+# Auto start after jail reboot
+service qbittorrent enable
 
-#fist start
-/usr/local/bin/qbittorrent-nox -d
+# First start
+service qbittorrent start
 
 echo "Please open the URL and Login with Username: admin, Password: adminadmin" > /root/PLUGIN_INFO
