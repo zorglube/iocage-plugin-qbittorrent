@@ -1,8 +1,5 @@
 #!/bin/sh
 
-#Install flavor port
-pkg install qbittorrent-nox
-
 # Auto start after jail reboot
 service qbittorrent enable
 
